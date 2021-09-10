@@ -1,0 +1,7 @@
+nombre= input("ingresa tu nombre")
+tel= input ("ingresa tu telefono")
+dire= input("ingresa tu correo electronico")
+
+saludo= "Bienvenido '{}' tu numero telefonico es '{}' y tu direccion de correo electronico es '{}' ".format(nombre,tel,dire)
+
+print(saludo)
