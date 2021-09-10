@@ -1,0 +1,12 @@
+print("Programa para calcular la resisitencia total de dos resisitencias en paralelo")
+
+R1 = input ("ingrese el valor de la primera resitencia en Ohms: ")
+R1 = float(R1)
+R2 = input ("ingrese el valor de la segunda resitencia en Ohms: ")
+R2 = float(R2)
+res= (1 / R1 + 1 / R2)
+res= float(res)
+tot= (1/res)
+tot= float(tot)
+r="la resistencia total es '{}' Ohoms".format(res)
+print(r)
