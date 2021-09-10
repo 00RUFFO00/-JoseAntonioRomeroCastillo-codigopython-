@@ -1,0 +1,20 @@
+edad = input("ingresa tu edad")
+edad = int(edad)
+if edad >= 18:
+    ing = input("indica tus ingresos")
+    ing = int(ing)
+    eg = input("indica tus egresos")
+    eg = int(eg)
+    monto = input ("ingresa el monto que deseas solicitar")
+    monto = int(monto)
+    meses = input("a cuantos meses deseas pagar")
+    meses = int(meses)
+    if ing>eg: 
+        cuota = monto/meses
+        cuota = int(cuota)
+        print("la cuota a pagar es: '{}'".format(cuota))
+    else:
+        print("tus ingresos son menores a tus egresos el prestamo no procede")
+else:
+    print("eres menor de edad")
+   
