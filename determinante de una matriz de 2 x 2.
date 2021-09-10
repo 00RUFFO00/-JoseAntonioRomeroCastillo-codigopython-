@@ -1,0 +1,11 @@
+a= input("dame el primer numero")
+a= int(a)
+b= input("dame el segundo numero")
+b=int(b)
+c= input("dame el tercer numero")
+c=int(c)
+d= input("dame el cuarto numero")
+d= int(d)
+line1=[a,b]
+line2=[c,d]
+line1[0]*line2[1]-line2[0]*line1[1]
